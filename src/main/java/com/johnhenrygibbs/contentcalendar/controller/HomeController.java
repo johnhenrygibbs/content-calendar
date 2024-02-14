@@ -11,12 +11,6 @@ import java.util.Map;
 @RestController
 public class HomeController {
 
-//    @Value("${cc.welcomeMessage: Default Welcome Message}")
-//    private String welcomeMessage;
-//
-//    @Value("{cc.about}")
-//    private String about;
-
     private final ContentCalendarProperties properties;
 
     public HomeController(ContentCalendarProperties properties) {
